@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #77ACA2;
+}
+
+.wrapper{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../img/145049515415891078.png");
+    background-position: left 50%;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+}
+
+.text-container{
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 600px;
+    height: 800px;
+    overflow: auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid dodgerblue;
+}
+
+.layout-bot-message{
+    padding: 4px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: blue;
+}
+
+
+.layout-user-message{
+    margin: 4px;
+    padding: 4px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: red;
+    text-align: end;
+}
+
+.bot{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: blue;
+}
+.user{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: red;
+    text-align: end;
+}
+.info{
+    background-color: #77ACA2;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+input, button, .time, p{
+    display: flex;
+    align-self: center;
+    width: 200px;
+}
+input{
+    height: auto;
+}
+
+.mini-pic-anim{
+    position: absolute;
+    align-self: end;
+    z-index: -1;
+    transition: .3s;
+    /*transform: translate(100px, 0px);*/
+}
