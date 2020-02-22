@@ -1,1 +1,1 @@
-Example of using async\await function
+Example of using jQuery and async\await function
