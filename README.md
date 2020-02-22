@@ -1,1 +1,1 @@
-# r2-chat
+Example of using async\await function
